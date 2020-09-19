@@ -7,6 +7,30 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+# 作業環境メモ
+## Visual Studio Code
+### 拡張機能
+- Git History
+- Git Lens
+- Vetur
+- Markdown All in One
+
+### ショートカットキー設定
+設定画面は、「ctrl+v s」で開く
+#### Markdown All in One
+- 「markdown.extension.togglePreviewToSide」を削除
+
+# 開発メモ
+## Vue.js
+### HMR(Hot Module Replacement)モードで作業
+```
+npm run hot
+```
+
+
+
+
+# その他
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -20,6 +44,9 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
+
+<details>
+<summary>続きを読む</summary>
 
 ## Learning Laravel
 
@@ -59,3 +86,5 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+</details>
