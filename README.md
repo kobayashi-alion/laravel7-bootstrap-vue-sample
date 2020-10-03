@@ -25,5 +25,7 @@
 - 「markdown.extension.togglePreviewToSide」を削除
 
 # 開発メモ
-[Vueについて](./resources/js/components)
+- [Controllerについて](./app/Controllers)
+- [Modelについて](./app/Models)
+- [Vueについて](./resources/js/components)
 
