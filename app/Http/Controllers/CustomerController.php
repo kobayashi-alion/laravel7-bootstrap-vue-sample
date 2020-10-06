@@ -21,15 +21,7 @@ class CustomerController extends Controller
     public function store(CustomerRequest $request)
     {
         $customer = new MCustomer;
-        $customer->code = $request->code;
-        $customer->name = $request->name;
-        $customer->name_kana = $request->name_kana;
-        $customer->zip_code = $request->zip_code;
-        $customer->address = $request->address;
-        $customer->building_name = $request->building_name;
-        $customer->tel = $request->tel;
-        $customer->fax = $request->fax;
-        $customer->save();
+        $customer->fill($request->all())->save();
         return redirect()->route('customer.index');
     }
 
@@ -48,15 +40,7 @@ class CustomerController extends Controller
     public function update(CustomerRequest $request, $id)
     {
         $customer = MCustomer::find($id);
-        $customer->code = $request->code;
-        $customer->name = $request->name;
-        $customer->name_kana = $request->name_kana;
-        $customer->zip_code = $request->zip_code;
-        $customer->address = $request->address;
-        $customer->building_name = $request->building_name;
-        $customer->tel = $request->tel;
-        $customer->fax = $request->fax;
-        $customer->save();
+        $customer->fill($request->all())->save();
         return redirect()->route('customer.index');
     }
 
