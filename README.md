@@ -7,25 +7,36 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-# 作業環境メモ
-## Visual Studio Code
-### 拡張機能
+# はじめに
+「Laravel7.x」「Bootstrap」「Vue.js」を勉強するためのリポジトリです。
+
+# Visual Studio Code
+## 拡張機能
 - Git History
-- Git Lens
+- Git Lens (まだ使ってない...)
 - Japanese Language Pack for Visual Studio Code
 - Markdown All in One
 - Laravel Extension Pack
-- Vetur
+- Vetur (Vue.jsを使う場合)
+
+## 設定
+### ~~Markdown All in One~~
+- ~~「markdown.extension.togglePreviewToSide」を削除~~
+
+### PHP Intelephense
+下記の設定のチェックを外す
+- intelephense.diagnostics.undefinedClassConstants
+- intelephense.diagnostics.undefinedConstants
+- intelephense.diagnostics.undefinedFunctions
+- intelephense.diagnostics.undefinedMethods
+- intelephense.diagnostics.undefinedProperties
+- intelephense.diagnostics.undefinedTypes 
 
 
 
-### ショートカットキー設定
-設定画面は、「ctrl+v s」で開く
-#### Markdown All in One
-- 「markdown.extension.togglePreviewToSide」を削除
 
 # 開発メモ
 - [Controllerについて](./app/Controllers)
 - [Modelについて](./app/Models)
-- [Vueについて](./resources/js/components)
+- [Vue.jsについて](./resources/js/components)
 
