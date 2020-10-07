@@ -2,6 +2,7 @@
 
 @section('content')
 <div class="container">
+    {{ Breadcrumbs::render('customer') }}
     <div class="row justify-content-center">
         <div class="col-sm-12">
             <div class="card">
