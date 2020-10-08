@@ -37,6 +37,8 @@
 
 
 # 開発メモ
+- Bladeについて
+- Requestについて
 - [Controllerについて](./app/Controllers)
 - [Modelについて](./app/Models)
 - [Vue.jsについて](./resources/js/components)
