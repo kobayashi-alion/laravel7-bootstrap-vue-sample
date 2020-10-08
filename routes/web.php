@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use \App\Http\Middleware\ActionLogMiddleware;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,5 +22,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::resource('/customer', 'CustomerController', ['only' => ['index', 'create', 'store', 'show', 'edit', 'update', 'destroy']]);
+Route::resource('/customer', 'CustomerController', ['only' => ['index', 'create', 'store', 'show', 'edit', 'update', 'destroy']])->middleware(ActionLogMiddleware::class);
 
