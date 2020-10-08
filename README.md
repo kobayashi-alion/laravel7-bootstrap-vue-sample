@@ -14,7 +14,7 @@
 ## 拡張機能
 - Git History
 - Git Lens (まだ使ってない...)
-- Git Pull Request
+- GitHub Pull Request
 - Japanese Language Pack for Visual Studio Code
 - Markdown All in One
 - Laravel Extension Pack
